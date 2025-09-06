@@ -16,7 +16,7 @@ jobs:
       contents: write # for goreleaser/goreleaser-action to create a GitHub release
     runs-on: ubuntu-22.04 # stick with older LTS release for continued debian support
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Install Go
         uses: actions/setup-go@v4
         with:
